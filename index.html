@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для моєї Каріночки ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen" id="screen1">
+        <div class="content">
+            <h1>Привіт, моя люба Каріночко! 💖</h1>
+            <p>Це маленький подарунок від мене для тебе 😊</p>
+            <button onclick="goToScreen(2)">Продовжити</button>
+        </div>
+    </div>
+
+    <div class="screen hidden" id="screen2">
+        <div class="content">
+            <h2>Я тебе дуже сильно люблю ❤️</h2>
+            <p>Ти для мене справді особлива...</p>
+            <p>Я не хочу сваритись, ображати тебе чи втрачати тебе...</p>
+            <p>Якщо маєш бажання, напиши Ромчику кілька милих слів :)</p>
+            <textarea id="message" placeholder="Твій текст..." rows="4"></textarea>
+            <button onclick="sendMessage()">Надіслати</button>
+        </div>
+    </div>
+
+    <div class="screen hidden" id="screen3">
+        <div class="content">
+            <h2>Дякую, моя кицю ❤️</h2>
+            <p>Твої слова вже у моєму серці (і в Telegram теж 😉)</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
